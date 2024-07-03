@@ -72,7 +72,7 @@ config.colors.indexed = { [16] = "#ffa066", [17] = "#ff5d62" }
 config.window_background_opacity = 0.95
 config.font = wezterm.font("IosevkaTerm NFM")
 config.hide_tab_bar_if_only_one_tab = true
-config.window_decorations = "NONE"
+config.window_decorations = "RESIZE"
 config.window_padding = {
 	left = 2,
 	right = 2,

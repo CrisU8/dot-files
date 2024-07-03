@@ -1,5 +1,6 @@
 return {
 	"epwalsh/obsidian.nvim",
+	enabled = true,
 	version = "*", -- recommended, use latest release instead of latest commit
 	dependencies = {
 		"nvim-lua/plenary.nvim",
@@ -7,18 +8,18 @@ return {
 	opts = {
 		workspaces = {
 			{
-				name = "Mente artificial",
-				path = "/mnt/c/Users/crist/iCloudDrive/iCloud~md~obsidian/Mente artificial/",
+				name = "Cerebro-digital",
+				path = "/home/crisu/Documentos/obsidian/Cerebro-digital",
 			},
 		},
 		completion = {
 			nvim_cmp = true,
 			min_chars = 2,
 		},
-		notes_subdir = "limbo",
-		new_notes_location = "limbo",
+		notes_subdir = "300 - 📓RESOURCES/NOTES",
+		new_notes_location = "300 - 📓 RESOURCES/NOTES",
 		attachments = {
-			img_folder = "files",
+			img_folder = "FILES",
 		},
 		daily_notes = {
 			template = "note",
@@ -84,7 +85,7 @@ return {
 		end,
 
 		templates = {
-			subdir = "Templates",
+			subdir = "TEMPLATES",
 			date_format = "%Y-%m-%d-%a",
 			gtime_format = "%H:%M",
 			tags = "",
